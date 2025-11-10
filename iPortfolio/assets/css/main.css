@@ -205,6 +205,23 @@ h6 {
   background: var(--accent-color);
 }
 
+/* Download CV button in header */
+.btn-download-cv {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background 0.2s ease-in-out;
+}
+.btn-download-cv:hover {
+  background: color-mix(in srgb, var(--accent-color), black 10%);
+  color: var(--contrast-color);
+}
+
 @media (min-width: 1200px) {
 
   .header~main,
